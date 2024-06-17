@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ACTIONS } from './todoReducer';
+import { ACTIONS } from '../todoReducer';
 
 const TodoItem = ({ todo, dispatch }) => {
   const [editing, setEditing] = useState(false);
