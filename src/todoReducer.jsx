@@ -1,5 +1,3 @@
-// todoReducer.js
-
 export const initialState = [
   {
     "userId": 1,

@@ -1,14 +1,18 @@
-.todo {
-    width: 600px;
-    min-height: 700px;
-    border-radius: 20px;
-    background-color: white;
-    margin: auto;
-    margin-top: 175px;
+.todo-item {
     display: flex;
-    flex-direction: column;
-    padding: 0px 45px;
-    padding-bottom: 30px;
-    margin-bottom: 100px;
-
-}
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .todo-form input {
+    margin-right: 8px;
+  }
+  
+  .todo-form button {
+    padding: 4px 8px;
+  }
+  
